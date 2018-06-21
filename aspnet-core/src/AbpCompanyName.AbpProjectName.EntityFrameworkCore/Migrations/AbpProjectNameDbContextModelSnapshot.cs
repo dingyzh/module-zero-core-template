@@ -22,7 +22,7 @@ namespace AbpCompanyName.AbpProjectName.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "2.0.1-rtm-125")
+                .HasAnnotation("ProductVersion", "2.0.3-rtm-10026")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
             modelBuilder.Entity("Abp.Application.Editions.Edition", b =>
@@ -92,7 +92,7 @@ namespace AbpCompanyName.AbpProjectName.Migrations
                         .ValueGeneratedOnAdd();
 
                     b.Property<string>("BrowserInfo")
-                        .HasMaxLength(256);
+                        .HasMaxLength(512);
 
                     b.Property<string>("ClientIpAddress")
                         .HasMaxLength(64);
@@ -303,7 +303,7 @@ namespace AbpCompanyName.AbpProjectName.Migrations
                         .ValueGeneratedOnAdd();
 
                     b.Property<string>("BrowserInfo")
-                        .HasMaxLength(256);
+                        .HasMaxLength(512);
 
                     b.Property<string>("ClientIpAddress")
                         .HasMaxLength(64);
@@ -514,7 +514,7 @@ namespace AbpCompanyName.AbpProjectName.Migrations
                         .ValueGeneratedOnAdd();
 
                     b.Property<string>("BrowserInfo")
-                        .HasMaxLength(256);
+                        .HasMaxLength(512);
 
                     b.Property<string>("ClientIpAddress")
                         .HasMaxLength(64);
